@@ -23,7 +23,7 @@ class TasksTableSeeder extends Seeder
 
             Task::create([
                 'user_id' => $user_id,
-                'title' => $faker->sentence,
+                'title' => 'title' . $index,
                 'description' => $faker->paragraph,
                 'status' => $status,
                 'due_date' => $faker->date(),
