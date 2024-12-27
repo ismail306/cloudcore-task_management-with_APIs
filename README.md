@@ -31,7 +31,7 @@ To test the API, import the attached [CloudCore Task API by Ismail Hossain.postm
 Run the seeders to insert dummy data for users, tasks, and the Passport personal access token:
 ```bash
 php artisan db:seed
-
+```
 
 ## Option 2: Import SQL File
 
