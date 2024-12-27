@@ -83,7 +83,7 @@ Once authenticated, you can access all the authenticated routes and perform CRUD
 
 
 ## Probable Error ⚠️
-If you send a request for any operation from Postman without a bearer token, you may encounter the following error:
+If you send a request for any operation from Postman without or with a wrong bearer token, you may encounter the following error:
 
 - ⚠️ **Error: Internal Server Error**  
   `Symfony\Component\Routing\Exception\RouteNotFoundException`  
