@@ -15,8 +15,8 @@ You can test all, just import attached API Collections in your Postman .
 
 ### 1. Clone the repository:
     ```bash
-    git clone https://github.com/ismail306/cloudcore-task_management-with_APIs.git
-    cd cloudcore-task_management-with_APIs
+    git clone https://github.com/ismail306/cloudcore-task_management_system-with_APIs.git
+    cd cloudcore-task_management_system-with_APIs
     ```
 
 ### 2. Copy the example environment file and configure it:
