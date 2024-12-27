@@ -40,6 +40,10 @@ DB_PASSWORD=your_database_password
  ```bash
 php artisan passport:keys
  ```
+### 5. Generate Application key:
+ ```bash
+$ php artisan key:generate
+ ```
 ---
 
 ### 2. Database Setup
