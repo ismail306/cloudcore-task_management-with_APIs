@@ -36,7 +36,11 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 ```
-### 5. Start the Laravel development server:
+### 5. Generate passport Encriptopn key:
+ ```bash
+php artisan passport:keys
+ ```
+### 6. Start the Laravel development server:
  ```bash
  php artisan serve
  ```
