@@ -19,13 +19,14 @@ Please Follow Steps:
 
 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Provable Error
+
+## Probable Error
+If you sent request for any operation from postman without bearer token you may got
 - Error: Internal Server Error
        Symfony\Component\Routing\Exception\RouteNotFoundException
        Route [login] not defined.
-- Solution: set bearer token properly
+- Solution: set bearer token properly [I will Handle it letter best way]
 
 ## Some Demo Images
 
