@@ -43,10 +43,10 @@ class UserAuthController extends Controller
         return $this->UserAuthRepository->show($parms);
     }
 
-    public function update(UserUpdateRequest $request, User $vendor)
+    public function update(UserUpdateRequest $request, User $user)
     {
         $parms = $request->all();
-        return $this->UserAuthRepository->update($parms, $vendor);
+        return $this->UserAuthRepository->update($parms, $user);
     }
 
     public function tokenValidate()

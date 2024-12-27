@@ -15,16 +15,6 @@ trait ApiResponser
             ]);
         }
 
-        //        if ($data != ''){
-        //            return ($data)
-        //                ->additional([
-        //                    'status' => 'Success',
-        //                    'message' => $message,
-        //                    'status_code' => $code,
-        //                ]);
-        //        }
-
-
         return response()->json([
             'status' => 'Success',
             'message' => $message,

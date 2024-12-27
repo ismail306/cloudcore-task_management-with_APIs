@@ -114,28 +114,7 @@ class UserAuthRepository implements UserAuthInterface
 
 
 
-    public function show()
-    {
-        // try {
-        //     $user = UserModel::where('id', Auth::id())->first();
-        //     return $this->successResponse(new UserResource($user), 'Data Get Successfully!');
-        // } catch (Exception $e) {
-        //     return $this->errorResponse();
-        // }
-    }
+    public function show() {}
 
-    public function update(array $parms, $user)
-    {
-        // try {
-        //     $sql = $user->update($parms);
-        // } catch (Exception $e) {
-        //     return $this->errorResponse();
-        // }
-
-        // if ($sql) {
-        //     return $this->successResponse(new UserResource($sql), 'User Update Successfully!');
-        // } else {
-        //     return $this->errorResponse();
-        // }
-    }
+    public function update(array $parms, $user) {}
 }

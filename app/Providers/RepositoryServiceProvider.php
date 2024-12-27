@@ -5,7 +5,8 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Interfaces\UserAuthInterface;
 use App\Repository\UserAuthRepository;
-
+use App\Interfaces\TaskInterface;
+use App\Repository\TaskRepository;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -15,6 +16,7 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->bind(UserAuthInterface::class, UserAuthRepository::class);
+        $this->app->bind(TaskInterface::class, TaskRepository::class);
     }
 
     /**

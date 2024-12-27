@@ -11,8 +11,16 @@ Laravel is a web application framework with expressive, elegant syntax.
 Please Follow Steps:
 
 - If you got ,{"status":"Error","message":"Personal access client not found. Please create one.","data":null}
-please run "php artisan passport:client --personal" .
+please run "php artisan passport:client --personal".
 
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Provable Error
+- Error: Internal Server Error
+       Symfony\Component\Routing\Exception\RouteNotFoundException
+       Route [login] not defined.
+- Solution: set bearer token properly
+
+- Error2: {"status":"Error","message":"Personal access client not found. Please create one.","data":null}
+- Solution: run "php artisan passport:client --personal"
