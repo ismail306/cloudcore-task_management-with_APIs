@@ -30,7 +30,7 @@ composer update
  ```
 
 ### 4. Configure the `.env` file:
-    - Update database credentials to match your local setup:
+- Update database credentials to match your local setup:
  ```env
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
