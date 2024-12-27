@@ -49,14 +49,6 @@ Alternatively, you can import the provided SQL file to set up the database:
     ```
 2. Locate the SQL file in the project root:  
    - [task-management-db-ismail.sql](task-management-db-ismail.sql)
-3. Import the SQL file into your database using your preferred method:
-   - **Using Terminal**:
-     ```bash
-     mysql -u your_username -p your_database_name < task-management-db-ismail.sql
-     ```
-   - **Using a Tool**: You can also use tools like phpMyAdmin or MySQL Workbench to import the SQL file.
-
----
 
 ## Testing Instructions
 
