@@ -40,16 +40,18 @@ DB_PASSWORD=your_database_password
  ```bash
 php artisan passport:keys
  ```
-### 6. Start the Laravel development server:
- ```bash
- php artisan serve
- ```
 ---
 
 ### 2. Database Setup
 
-#### Option 1: Use Seeders
-Run the seeders to insert dummy data for users, tasks, and the Passport personal access token:
+#### Option 1: Create DB tables And run Seeders
+
+#### 1.  Create tables:
+ ```bash
+ php artisan migrate
+ ```
+
+#### 2. Run the seeders to insert dummy data for users, tasks, and the Passport personal access token:
 ```bash
 php artisan db:seed
 ```
@@ -62,9 +64,12 @@ Alternatively, you can import the provided SQL file to set up the database:
 
 
 ## Testing Instructions
-
-1. Ensure the database is configured and populated with dummy data (via seeders or the SQL file).
-2. Import the attached Postman APIs collection into Postman to test Task CRUD operations and filtering
+### 1. Start the Laravel development server:
+ ```bash
+ php artisan serve
+ ```
+### 2. Ensure the database is configured and populated with dummy data (via seeders or the SQL file).
+### 3. Import the attached Postman APIs collection into Postman to test Task CRUD operations and filtering
 - [CloudCore Task API by Ismail Hossain.postman_collection.json](public/CloudCore%20Task%20API%20By%20Ismail%20Hossain.postman_collection.json)
 
 
