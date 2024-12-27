@@ -24,7 +24,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
        Route [login] not defined.
 - Solution: set bearer token properly
 
-## Some demo image
 ## Some Demo Images
 
 ### Register User
