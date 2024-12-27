@@ -2,7 +2,7 @@
 
 # Task Management System
 
-This Task Management System backend is built using Laravel. Below are the details and instructions for testing and running the application. I used Passport for user Authentication, also added all request url and required data as JSON format for auth, Task CRUD and Filter in attached postman json file.
+This Task Management System backend is built using Laravel. Below are the details and instructions for testing and running the application. I used Passport for user Authentication, also added all request url and required data as JSON format for auth, Task CRUD, Filter and sortby in attached postman json file.
 You can test all, just import attached API Collections in your Postman .
 
 ## Features
