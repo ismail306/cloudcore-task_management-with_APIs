@@ -42,7 +42,7 @@ php artisan passport:keys
  ```
 ### 5. Generate Application key:
  ```bash
-$ php artisan key:generate
+php artisan key:generate
  ```
 ---
 
